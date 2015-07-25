@@ -24,16 +24,13 @@
             <string>Opificio-Bold</string>
             <string>Opificio-Bold</string>
             <string>Opificio-Bold</string>
-            <string>Opificio-Bold</string>
-            <string>Opificio-Bold</string>
-            <string>Opificio-Bold</string>
         </mutableArray>
     </customFonts>
     <scenes>
         <!--HRViewController-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController title="HRViewController" id="vXZ-lx-hvc" customClass="HRViewController" customModule="Bluetooth_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="HRViewController" id="vXZ-lx-hvc" customClass="HRViewController" customModule="ObellaBe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -42,86 +39,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Status:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bz9-j4-izi">
-                                <rect key="frame" x="11" y="347" width="130" height="25"/>
-                                <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.082352941176470587" green="0.22352941176470589" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-Aa-cKl">
-                                <rect key="frame" x="159" y="111" width="150" height="50"/>
-                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.090196078431372548" green="0.22745098039215686" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7Jw-Yh-8pK">
-                                <rect key="frame" x="159" y="197" width="150" height="25"/>
-                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.090196078431372548" green="0.22745098039215686" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nx-4P-p0X">
-                                <rect key="frame" x="159" y="262" width="150" height="50"/>
-                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.090196078431372548" green="0.22745098039215686" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alQ-CE-Zr7">
-                                <rect key="frame" x="159" y="335" width="150" height="50"/>
-                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.090196078431372548" green="0.22745098039215686" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HeartRate:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2i-kF-JHf">
-                                <rect key="frame" x="11" y="419" width="130" height="25"/>
+                                <rect key="frame" x="11" y="293" width="130" height="25"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.08235294118" green="0.22352941179999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvV-hT-ilj">
                                 <rect key="frame" x="130" y="513" width="60" height="35"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.086274509799999996" green="0.63921568630000003" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="backButton" destination="x5A-6p-PRh" eventType="touchUpInside" id="Y4j-hk-wd9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcx-pE-Zby">
-                                <rect key="frame" x="159" y="407" width="150" height="50"/>
+                                <rect key="frame" x="159" y="281" width="150" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Service:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4t-cr-G2s">
-                                <rect key="frame" x="11" y="197" width="130" height="25"/>
-                                <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.082352941176470587" green="0.22352941176470589" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="obella be" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GkD-L3-ocr">
+                                <rect key="frame" x="9" y="20" width="303" height="70"/>
+                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="60"/>
+                                <color key="textColor" red="0.54901960780000003" green="0.72549019609999998" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Char:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dL-9L-PIl">
-                                <rect key="frame" x="11" y="274" width="130" height="25"/>
-                                <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.082352941176470587" green="0.22352941176470589" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-Aa-cKl">
+                                <rect key="frame" x="157" y="214" width="150" height="50"/>
+                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Device Name:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTW-Vk-jDG">
-                                <rect key="frame" x="11" y="123" width="130" height="25"/>
+                                <rect key="frame" x="9" y="226" width="130" height="25"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.082352941176470587" green="0.22352941176470589" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.72941176470588232" green="0.75686274509803919" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="deviceCharacteristic" destination="3nx-4P-p0X" id="cCg-bz-1km"/>
                         <outlet property="deviceNameLabel" destination="EUT-Aa-cKl" id="oDM-N8-6xp"/>
-                        <outlet property="deviceService" destination="7Jw-Yh-8pK" id="Ed8-ou-nFg"/>
                         <outlet property="heartRateLabel" destination="gcx-pE-Zby" id="Iaf-3R-nNc"/>
-                        <outlet property="statusLabel" destination="alQ-CE-Zr7" id="IPD-Hv-VV5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -144,7 +108,7 @@
                                 <rect key="frame" x="12" y="337" width="296" height="45"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="30"/>
                                 <state key="normal" title="Blood Pressure">
-                                    <color key="titleColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -155,7 +119,7 @@
                                 <rect key="frame" x="12" y="199" width="296" height="49"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="30"/>
                                 <state key="normal" title="Heart Rate">
-                                    <color key="titleColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -172,8 +136,15 @@
                                     <segue destination="Hjg-Ux-6XR" kind="presentation" id="Kt5-Np-HF0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="obella be" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fV8-Yf-1Z3">
+                                <rect key="frame" x="9" y="28" width="303" height="70"/>
+                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="60"/>
+                                <color key="textColor" red="0.54901960780000003" green="0.72549019609999998" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.72941176470000002" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.54901960780000003" green="0.72549019609999998" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
@@ -184,7 +155,7 @@
         <!--View Controller-->
         <scene sceneID="Qln-vf-cjs">
             <objects>
-                <viewController id="eX2-bO-cVP" customClass="BPViewController" customModule="Bluetooth_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eX2-bO-cVP" customClass="BPViewController" customModule="ObellaBe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UCj-Ni-A4A"/>
                         <viewControllerLayoutGuide type="bottom" id="DSM-sm-xJN"/>
@@ -196,38 +167,38 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HeartRate:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUh-73-bzR">
                                 <rect key="frame" x="11" y="220" width="130" height="25"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.08235294118" green="0.22352941179999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blood Pressure:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0r-d6-6pP">
                                 <rect key="frame" x="11" y="293" width="130" height="25"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.08235294118" green="0.22352941179999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwY-b3-2pJ">
                                 <rect key="frame" x="159" y="220" width="150" height="25"/>
                                 <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEv-al-1np">
                                 <rect key="frame" x="159" y="270" width="150" height="25"/>
                                 <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNS-Xf-oGg">
                                 <rect key="frame" x="159" y="322" width="150" height="25"/>
                                 <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
-                                <color key="textColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EM3-4u-9Oe">
                                 <rect key="frame" x="130" y="513" width="60" height="35"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.086274509803921567" green="0.63921568627450975" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="backButton" destination="IaE-NX-zRP" eventType="touchUpInside" id="3PZ-Y8-O0n"/>
@@ -236,11 +207,17 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_____________" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moi-v2-naI">
                                 <rect key="frame" x="170" y="281" width="128" height="26.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <color key="textColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="obella be" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zzb-gh-UhQ">
+                                <rect key="frame" x="9" y="20" width="303" height="70"/>
+                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="60"/>
+                                <color key="textColor" red="0.54901960780000003" green="0.72549019609999998" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.72941176470000002" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -257,7 +234,7 @@
         <!--Info View Controller-->
         <scene sceneID="kH2-C0-ZQU">
             <objects>
-                <viewController id="Hjg-Ux-6XR" customClass="InfoViewController" customModule="Bluetooth_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Hjg-Ux-6XR" customClass="InfoViewController" customModule="ObellaBe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aMU-t8-wed"/>
                         <viewControllerLayoutGuide type="bottom" id="7Hq-E3-Oyh"/>
@@ -270,7 +247,7 @@
                                 <rect key="frame" x="130" y="513" width="60" height="35"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.086274509799999996" green="0.63921568630000003" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="closeInfo" destination="Hjg-Ux-6XR" eventType="touchUpInside" id="VEf-FF-dyB"/>
@@ -281,7 +258,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" red="0.72941176470000002" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

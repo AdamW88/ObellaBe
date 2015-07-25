@@ -14,9 +14,9 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
     
     //Setup UI labels in storyboard
     @IBOutlet weak var deviceNameLabel: UILabel!
-    @IBOutlet weak var deviceService: UILabel!
-    @IBOutlet weak var deviceCharacteristic: UILabel!
-    @IBOutlet weak var statusLabel: UILabel!
+//    @IBOutlet weak var deviceService: UILabel!
+//    @IBOutlet weak var deviceCharacteristic: UILabel!
+//    @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var heartRateLabel: UILabel!
 
     
@@ -56,11 +56,11 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
         if central.state == CBCentralManagerState.PoweredOn {
             // Scan for peripherals if BLE is turned on
             central.scanForPeripheralsWithServices(nil, options: nil)
-            self.statusLabel.text = "Searching for BLE Devices"
+            //self.statusLabel.text = "Searching for BLE Devices"
         }
         else {
             // Can have different conditions for all states if needed - show generic alert for now
-            self.statusLabel.text = "Bluetooth Not Enabled"
+            //self.statusLabel.text = "Bluetooth Not Enabled"
         }
     }
 
@@ -70,7 +70,7 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
         
         if ObellaBE.deviceNameFound(advertisementData) == (true)
         {
-            self.statusLabel.text = "Obella BE Found"
+            //self.statusLabel.text = "Obella BE Found"
             deviceNameLabel.text = "Obella BE"
             
             // Stop scanning, set as the peripheral to use and establish connection
@@ -81,15 +81,14 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
         }
         else
         {
-            self.statusLabel.text = "Obella BE NOT Found"
-            //showAlertWithText(header: "Warning", message: "SensorTag Not Found")
+            //self.statusLabel.text = "Obella BE NOT Found"
         }
         
 //*********Blood Pressure Testing
         print("\(BloodPressureDevice.deviceNameFound)", appendNewline: false) //check to see if BP name is found or not
         if BloodPressureDevice.deviceNameFound(advertisementData) == (true)
         {
-            self.statusLabel.text = "BP Cuff Found"
+            //self.statusLabel.text = "BP Cuff Found"
             self.deviceNameLabel.text = "BP Cuff"
 
         
@@ -101,32 +100,32 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
         }
         else
         {
-            self.statusLabel.text = "Device Not Found"
+            //self.statusLabel.text = "Device Not Found"
         }
     }
     
 // Discover services of the peripheral
         func centralManager(central: CBCentralManager, didConnectPeripheral peripheral: CBPeripheral)
         {
-            self.statusLabel.text = "Discovering peripheral services"
+            //self.statusLabel.text = "Discovering peripheral services"
             peripheral.discoverServices(nil)
     }
     
 // If disconnected, start searching again
     func centralManager(central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: NSError?)
     {
-        self.statusLabel.text = "-"
+        //self.statusLabel.text = "-"
         deviceNameLabel.text = "-"
-        deviceCharacteristic.text = "-"
-        //heartRateLabel.text = "-"
-        deviceService.text = "-"
+        //deviceCharacteristic.text = "-"
+        heartRateLabel.text = "-"
+        //deviceService.text = "-"
         central.scanForPeripheralsWithServices(nil, options: nil)
     }
     
 /******* CBCentralPeripheralDelegate *******/
     func peripheral(peripheral: CBPeripheral, didDiscoverServices error: NSError?)
     {
-        self.statusLabel.text = "Looking at peripheral services"
+        //self.statusLabel.text = "Looking at peripheral services"
         
         for service in peripheral.services!
         {
@@ -135,21 +134,21 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
             //deviceService.text = String(stringInterpolationSegment: service.UUID) //Print Service UUID for connected device
             if ObellaBE.validService(thisService)
             {
-                deviceService.text = "HR Service Found"
+                //deviceService.text = "HR Service Found"
                 
                 // Discover characteristics of all valid services
                 peripheral.discoverCharacteristics(nil, forService: thisService)
             }
             else if BloodPressureDevice.validService(thisService)
             {
-                deviceService.text = "Blood Pressure"
+                //deviceService.text = "Blood Pressure"
                 
                 //Discover characteristic of all valid services
                 peripheral.discoverCharacteristics(nil, forService: thisService)
             }
             else
             {
-                deviceService.text = "Service Not Found"
+                //deviceService.text = "Service Not Found"
             }
         }
     }
@@ -158,7 +157,7 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
         func peripheral(peripheral: CBPeripheral, didDiscoverCharacteristicsForService service: CBService, error: NSError?)
     {
             
-            self.statusLabel.text = "Enabling sensors"
+            //self.statusLabel.text = "Enabling sensors"
         
             var enableValue = 1
             let enablyBytes = NSData(bytes: &enableValue, length: sizeof(UInt8))
@@ -186,7 +185,7 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
                     // Enable Sensor Notification
                     self.devicePeripheral.setNotifyValue(true, forCharacteristic: thisCharacteristic)
                     print("Enabling Sensor Notification")
-                    deviceCharacteristic.text = "Blood Pressure Char"
+                    //deviceCharacteristic.text = "Blood Pressure Char"
                 }
                 if BloodPressureDevice.validConfigCharacteristic(thisCharacteristic)
                 {
@@ -199,7 +198,7 @@ class HRViewController: UIViewController, CBCentralManagerDelegate, CBPeripheral
         func peripheral(peripheral: CBPeripheral, didUpdateValueForCharacteristic characteristic: CBCharacteristic, error: NSError?)
         {
             
-            self.statusLabel.text = "Connected"
+            //self.statusLabel.text = "Connected"
             
             if characteristic.UUID == HeartRateCharacteristicUUID
             {
