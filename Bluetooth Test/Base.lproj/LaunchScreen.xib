@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Opificio.ttf">
+            <string>Opificio</string>
+            <string>Opificio</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="obella be" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="E6r-JU-QQo">
+                    <rect key="frame" x="89" y="30" width="303" height="70"/>
+                    <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="60"/>
+                    <color key="textColor" red="0.76862745099999996" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ObellaPrego2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jXL-94-EY4">
+                    <rect key="frame" x="105" y="108" width="271" height="323"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2015 Obella. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="6gO-GG-c4P">
+                    <rect key="frame" x="73" y="451" width="335" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="sl6-jq-Pn8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.72941176470000002" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="6gO-GG-c4P" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="2Pg-V1-7Jo"/>
+                <constraint firstAttribute="trailing" secondItem="E6r-JU-QQo" secondAttribute="trailing" constant="88" id="45l-0e-Nxo"/>
+                <constraint firstItem="6gO-GG-c4P" firstAttribute="top" secondItem="jXL-94-EY4" secondAttribute="bottom" constant="20" id="BCC-1A-M8k"/>
+                <constraint firstItem="jXL-94-EY4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="108" id="BNW-o6-rj0"/>
+                <constraint firstAttribute="trailing" secondItem="jXL-94-EY4" secondAttribute="trailing" constant="104" id="DjM-X1-ola"/>
+                <constraint firstItem="E6r-JU-QQo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="89" id="MH0-g7-n0A"/>
+                <constraint firstItem="6gO-GG-c4P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="73" id="Rqa-Iy-G9M"/>
+                <constraint firstItem="E6r-JU-QQo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="WM9-Oa-Bhb"/>
+                <constraint firstItem="jXL-94-EY4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="105" id="brQ-xv-f5H"/>
+                <constraint firstAttribute="trailing" secondItem="6gO-GG-c4P" secondAttribute="trailing" constant="72" id="ztz-Jm-bwo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ObellaPrego2.png" width="1368" height="1490"/>
+    </resources>
+</document>
