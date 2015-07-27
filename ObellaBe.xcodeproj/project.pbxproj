@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E74A1EF61B5884BD007B8D01 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A1EF51B5884BD007B8D01 /* MainScreenViewController.swift */; };
+		E752BCF31B656F8A00FD2126 /* Blood Pressure Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF11B656F8A00FD2126 /* Blood Pressure Button.png */; };
+		E752BCF41B656F8A00FD2126 /* Heart Rate Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF21B656F8A00FD2126 /* Heart Rate Button.png */; };
+		E752BCF61B65711300FD2126 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF51B65711300FD2126 /* Button.png */; };
+		E752BD011B65D83500FD2126 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF71B65D83500FD2126 /* Icon-40.png */; };
+		E752BD021B65D83500FD2126 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF81B65D83500FD2126 /* Icon-40@2x.png */; };
+		E752BD031B65D83500FD2126 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF91B65D83500FD2126 /* Icon-40@3x.png */; };
+		E752BD041B65D83500FD2126 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFA1B65D83500FD2126 /* Icon-60@2x.png */; };
+		E752BD051B65D83500FD2126 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFB1B65D83500FD2126 /* Icon-60@3x.png */; };
+		E752BD061B65D83500FD2126 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFC1B65D83500FD2126 /* Icon-76.png */; };
+		E752BD071B65D83500FD2126 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFD1B65D83500FD2126 /* Icon-76@2x.png */; };
+		E752BD081B65D83500FD2126 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFE1B65D83500FD2126 /* Icon-Small.png */; };
+		E752BD091B65D83500FD2126 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFF1B65D83500FD2126 /* Icon-Small@2x.png */; };
+		E752BD0A1B65D83500FD2126 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD001B65D83500FD2126 /* Icon-Small@3x.png */; };
 		E7ADB9E31B3A30F300F26C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB9E21B3A30F300F26C54 /* AppDelegate.swift */; };
 		E7ADB9E61B3A30F300F26C54 /* Bluetooth_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB9E41B3A30F300F26C54 /* Bluetooth_Test.xcdatamodeld */; };
 		E7ADB9E81B3A30F300F26C54 /* HRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB9E71B3A30F300F26C54 /* HRViewController.swift */; };
@@ -19,16 +32,6 @@
 		E7B8984C1B6329CE00232D8C /* ObellaPrego2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B8984B1B6329CE00232D8C /* ObellaPrego2.png */; };
 		E7B8984E1B63303D00232D8C /* BPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B8984D1B63303D00232D8C /* BPViewController.swift */; };
 		E7BE49061B61BA3D0019C0F4 /* Opificio.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7BE49051B61BA3D0019C0F4 /* Opificio.ttf */; };
-		E7BE49361B6320630019C0F4 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE492C1B6320630019C0F4 /* Icon-40.png */; };
-		E7BE49371B6320630019C0F4 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE492D1B6320630019C0F4 /* Icon-40@2x.png */; };
-		E7BE49381B6320630019C0F4 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE492E1B6320630019C0F4 /* Icon-40@3x.png */; };
-		E7BE49391B6320630019C0F4 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE492F1B6320630019C0F4 /* Icon-60@2x.png */; };
-		E7BE493A1B6320630019C0F4 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE49301B6320630019C0F4 /* Icon-60@3x.png */; };
-		E7BE493B1B6320630019C0F4 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE49311B6320630019C0F4 /* Icon-76.png */; };
-		E7BE493C1B6320630019C0F4 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE49321B6320630019C0F4 /* Icon-76@2x.png */; };
-		E7BE493D1B6320630019C0F4 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE49331B6320630019C0F4 /* Icon-Small.png */; };
-		E7BE493E1B6320630019C0F4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE49341B6320630019C0F4 /* Icon-Small@2x.png */; };
-		E7BE493F1B6320630019C0F4 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BE49351B6320630019C0F4 /* Icon-Small@3x.png */; };
 		E7D4ADCF1B52DF3B0034D1C6 /* BloodPressureDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D4ADCE1B52DF3B0034D1C6 /* BloodPressureDevice.swift */; };
 		E7E92A051B6346130075B85B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E92A041B6346130075B85B /* InfoViewController.swift */; };
 		E7E92A071B63C2AD0075B85B /* Opificio_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E92A061B63C2AD0075B85B /* Opificio_Bold.ttf */; };
@@ -46,6 +49,19 @@
 
 /* Begin PBXFileReference section */
 		E74A1EF51B5884BD007B8D01 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		E752BCF11B656F8A00FD2126 /* Blood Pressure Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood Pressure Button.png"; sourceTree = "<group>"; };
+		E752BCF21B656F8A00FD2126 /* Heart Rate Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heart Rate Button.png"; sourceTree = "<group>"; };
+		E752BCF51B65711300FD2126 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		E752BCF71B65D83500FD2126 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		E752BCF81B65D83500FD2126 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		E752BCF91B65D83500FD2126 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		E752BCFA1B65D83500FD2126 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		E752BCFB1B65D83500FD2126 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		E752BCFC1B65D83500FD2126 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		E752BCFD1B65D83500FD2126 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		E752BCFE1B65D83500FD2126 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		E752BCFF1B65D83500FD2126 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		E752BD001B65D83500FD2126 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
 		E7ADB9DD1B3A30F300F26C54 /* ObellaBe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObellaBe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ADB9E11B3A30F300F26C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7ADB9E21B3A30F300F26C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,16 +77,6 @@
 		E7B8984B1B6329CE00232D8C /* ObellaPrego2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ObellaPrego2.png; sourceTree = "<group>"; };
 		E7B8984D1B63303D00232D8C /* BPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPViewController.swift; sourceTree = "<group>"; };
 		E7BE49051B61BA3D0019C0F4 /* Opificio.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Opificio.ttf; sourceTree = "<group>"; };
-		E7BE492C1B6320630019C0F4 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
-		E7BE492D1B6320630019C0F4 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
-		E7BE492E1B6320630019C0F4 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
-		E7BE492F1B6320630019C0F4 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
-		E7BE49301B6320630019C0F4 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
-		E7BE49311B6320630019C0F4 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
-		E7BE49321B6320630019C0F4 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
-		E7BE49331B6320630019C0F4 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		E7BE49341B6320630019C0F4 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		E7BE49351B6320630019C0F4 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
 		E7D4ADCE1B52DF3B0034D1C6 /* BloodPressureDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodPressureDevice.swift; sourceTree = "<group>"; };
 		E7E92A041B6346130075B85B /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		E7E92A061B63C2AD0075B85B /* Opificio_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Opificio_Bold.ttf; sourceTree = "<group>"; };
@@ -137,17 +143,20 @@
 		E7ADB9E01B3A30F300F26C54 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E752BCF71B65D83500FD2126 /* Icon-40.png */,
+				E752BCF81B65D83500FD2126 /* Icon-40@2x.png */,
+				E752BCF91B65D83500FD2126 /* Icon-40@3x.png */,
+				E752BCFA1B65D83500FD2126 /* Icon-60@2x.png */,
+				E752BCFB1B65D83500FD2126 /* Icon-60@3x.png */,
+				E752BCFC1B65D83500FD2126 /* Icon-76.png */,
+				E752BCFD1B65D83500FD2126 /* Icon-76@2x.png */,
+				E752BCFE1B65D83500FD2126 /* Icon-Small.png */,
+				E752BCFF1B65D83500FD2126 /* Icon-Small@2x.png */,
+				E752BD001B65D83500FD2126 /* Icon-Small@3x.png */,
+				E752BCF51B65711300FD2126 /* Button.png */,
+				E752BCF11B656F8A00FD2126 /* Blood Pressure Button.png */,
+				E752BCF21B656F8A00FD2126 /* Heart Rate Button.png */,
 				E7B8984B1B6329CE00232D8C /* ObellaPrego2.png */,
-				E7BE492C1B6320630019C0F4 /* Icon-40.png */,
-				E7BE492D1B6320630019C0F4 /* Icon-40@2x.png */,
-				E7BE492E1B6320630019C0F4 /* Icon-40@3x.png */,
-				E7BE492F1B6320630019C0F4 /* Icon-60@2x.png */,
-				E7BE49301B6320630019C0F4 /* Icon-60@3x.png */,
-				E7BE49311B6320630019C0F4 /* Icon-76.png */,
-				E7BE49321B6320630019C0F4 /* Icon-76@2x.png */,
-				E7BE49331B6320630019C0F4 /* Icon-Small.png */,
-				E7BE49341B6320630019C0F4 /* Icon-Small@2x.png */,
-				E7BE49351B6320630019C0F4 /* Icon-Small@3x.png */,
 				E7E92A061B63C2AD0075B85B /* Opificio_Bold.ttf */,
 				E7BE49051B61BA3D0019C0F4 /* Opificio.ttf */,
 				E7ADB9E11B3A30F300F26C54 /* Info.plist */,
@@ -256,20 +265,23 @@
 			files = (
 				E7ADB9EB1B3A30F300F26C54 /* Main.storyboard in Resources */,
 				E7ADB9F01B3A30F300F26C54 /* LaunchScreen.xib in Resources */,
+				E752BD0A1B65D83500FD2126 /* Icon-Small@3x.png in Resources */,
+				E752BD061B65D83500FD2126 /* Icon-76.png in Resources */,
+				E752BD091B65D83500FD2126 /* Icon-Small@2x.png in Resources */,
+				E752BD041B65D83500FD2126 /* Icon-60@2x.png in Resources */,
 				E7BE49061B61BA3D0019C0F4 /* Opificio.ttf in Resources */,
-				E7BE49371B6320630019C0F4 /* Icon-40@2x.png in Resources */,
+				E752BD051B65D83500FD2126 /* Icon-60@3x.png in Resources */,
 				E7B8984C1B6329CE00232D8C /* ObellaPrego2.png in Resources */,
+				E752BD021B65D83500FD2126 /* Icon-40@2x.png in Resources */,
+				E752BD011B65D83500FD2126 /* Icon-40.png in Resources */,
 				E7ADB9ED1B3A30F300F26C54 /* Images.xcassets in Resources */,
-				E7BE493E1B6320630019C0F4 /* Icon-Small@2x.png in Resources */,
-				E7BE493C1B6320630019C0F4 /* Icon-76@2x.png in Resources */,
-				E7BE49381B6320630019C0F4 /* Icon-40@3x.png in Resources */,
-				E7BE493A1B6320630019C0F4 /* Icon-60@3x.png in Resources */,
-				E7BE493D1B6320630019C0F4 /* Icon-Small.png in Resources */,
-				E7BE493B1B6320630019C0F4 /* Icon-76.png in Resources */,
-				E7BE49361B6320630019C0F4 /* Icon-40.png in Resources */,
-				E7BE493F1B6320630019C0F4 /* Icon-Small@3x.png in Resources */,
-				E7BE49391B6320630019C0F4 /* Icon-60@2x.png in Resources */,
+				E752BD081B65D83500FD2126 /* Icon-Small.png in Resources */,
+				E752BCF41B656F8A00FD2126 /* Heart Rate Button.png in Resources */,
+				E752BCF31B656F8A00FD2126 /* Blood Pressure Button.png in Resources */,
 				E7E92A071B63C2AD0075B85B /* Opificio_Bold.ttf in Resources */,
+				E752BD031B65D83500FD2126 /* Icon-40@3x.png in Resources */,
+				E752BD071B65D83500FD2126 /* Icon-76@2x.png in Resources */,
+				E752BCF61B65711300FD2126 /* Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
