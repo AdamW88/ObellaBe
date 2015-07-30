@@ -39,14 +39,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Heart Rate:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2i-kF-JHf">
-                                <rect key="frame" x="11" y="293" width="130" height="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" fixedFrame="YES" text="Heart Rate:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2i-kF-JHf">
+                                <rect key="frame" x="67" y="224" width="96" height="24"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
                                 <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvV-hT-ilj">
-                                <rect key="frame" x="130" y="515" width="60" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvV-hT-ilj">
+                                <rect key="frame" x="139" y="512" width="42" height="36"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.086274509799999996" green="0.63921568630000003" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -56,32 +56,39 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcx-pE-Zby">
-                                <rect key="frame" x="159" y="281" width="150" height="50"/>
+                                <rect key="frame" x="164" y="224" width="150" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="obella be" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GkD-L3-ocr">
-                                <rect key="frame" x="9" y="20" width="303" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="obella be" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GkD-L3-ocr">
+                                <rect key="frame" x="33" y="20" width="254" height="70"/>
                                 <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="60"/>
                                 <color key="textColor" red="0.54901960780000003" green="0.72549019609999998" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-Aa-cKl">
-                                <rect key="frame" x="157" y="214" width="150" height="50"/>
-                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Device Name:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTW-Vk-jDG">
+                                <rect key="frame" x="33" y="291" width="130" height="25"/>
+                                <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
                                 <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Device Name:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTW-Vk-jDG">
-                                <rect key="frame" x="9" y="226" width="130" height="25"/>
-                                <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-Aa-cKl">
+                                <rect key="frame" x="164" y="293" width="150" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="19"/>
                                 <color key="textColor" red="0.41568627450000001" green="0.78823529410000004" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IvV-hT-ilj" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="DGx-Vz-YC4"/>
+                            <constraint firstItem="IvV-hT-ilj" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="492" id="YOq-wQ-2vR"/>
+                            <constraint firstItem="GkD-L3-ocr" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="bNA-Ug-O2l"/>
+                            <constraint firstItem="GkD-L3-ocr" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="uIx-g8-Nln"/>
+                        </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="deviceNameLabel" destination="EUT-Aa-cKl" id="oDM-N8-6xp"/>
@@ -101,11 +108,11 @@
                         <viewControllerLayoutGuide type="bottom" id="vyf-XD-iTl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XA3-pC-tsY">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbS-Ks-jXq" userLabel="Info Button">
-                                <rect key="frame" x="149" y="492" width="22" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbS-Ks-jXq" userLabel="Info Button">
+                                <rect key="frame" x="289" y="481" width="22" height="22"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.090196078430000007" green="0.2274509804" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -114,32 +121,22 @@
                                     <segue destination="Hjg-Ux-6XR" kind="presentation" id="Kt5-Np-HF0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="obella be" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fV8-Yf-1Z3">
-                                <rect key="frame" x="9" y="20" width="303" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="obella be" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fV8-Yf-1Z3">
+                                <rect key="frame" x="173" y="20" width="254" height="70"/>
                                 <fontDescription key="fontDescription" name="Opificio" family="Opificio" pointSize="60"/>
                                 <color key="textColor" red="0.54901960780000003" green="0.72549019609999998" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHr-Fs-cif" userLabel="HR Button">
-                                <rect key="frame" x="11" y="191" width="298" height="68"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHr-Fs-cif" userLabel="HR Button">
+                                <rect key="frame" x="151" y="191" width="298" height="68"/>
                                 <state key="normal" image="Button.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyX-Uc-VPH" userLabel="BP Button">
-                                <rect key="frame" x="11" y="327" width="298" height="68"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyX-Uc-VPH" userLabel="BP Button">
+                                <rect key="frame" x="151" y="316" width="298" height="68"/>
                                 <state key="normal" image="Button.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZ5-GO-hOb">
-                                <rect key="frame" x="15" y="195" width="290" height="60"/>
-                                <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="30"/>
-                                <state key="normal" title="Heart Rate">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="presentation" id="926-I3-Ete"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcT-eC-Vs8">
-                                <rect key="frame" x="15" y="331" width="290" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcT-eC-Vs8">
+                                <rect key="frame" x="200" y="320" width="200" height="49"/>
                                 <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="30"/>
                                 <state key="normal" title="Blood Pressure">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -148,11 +145,34 @@
                                     <segue destination="eX2-bO-cVP" kind="presentation" id="QRp-XC-Uff"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZ5-GO-hOb">
+                                <rect key="frame" x="227" y="195" width="146" height="49"/>
+                                <fontDescription key="fontDescription" name="Opificio-Bold" family="Opificio" pointSize="30"/>
+                                <state key="normal" title="Heart Rate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="presentation" id="6HV-8Z-lws"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.54901960780000003" green="0.72549019609999998" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fV8-Yf-1Z3" firstAttribute="centerX" secondItem="XA3-pC-tsY" secondAttribute="centerX" id="A2Z-rm-vNa"/>
+                            <constraint firstItem="zcT-eC-Vs8" firstAttribute="top" secondItem="FZ5-GO-hOb" secondAttribute="bottom" constant="76" id="DDR-bC-SKH"/>
+                            <constraint firstItem="fV8-Yf-1Z3" firstAttribute="top" secondItem="GGN-uE-RMO" secondAttribute="bottom" id="EEd-Qx-foE"/>
+                            <constraint firstItem="fV8-Yf-1Z3" firstAttribute="centerX" secondItem="vyX-Uc-VPH" secondAttribute="centerX" id="Ewl-fI-QdT"/>
+                            <constraint firstItem="vyX-Uc-VPH" firstAttribute="top" secondItem="FZ5-GO-hOb" secondAttribute="bottom" constant="72" id="Imr-x1-Sd3"/>
+                            <constraint firstItem="FZ5-GO-hOb" firstAttribute="top" secondItem="fV8-Yf-1Z3" secondAttribute="bottom" constant="105" id="JCv-fq-wBG"/>
+                            <constraint firstItem="fV8-Yf-1Z3" firstAttribute="centerX" secondItem="fHr-Fs-cif" secondAttribute="centerX" id="ZJk-BL-zHH"/>
+                            <constraint firstItem="sbS-Ks-jXq" firstAttribute="centerX" secondItem="XA3-pC-tsY" secondAttribute="centerX" id="fTM-lG-eXi"/>
+                            <constraint firstItem="fV8-Yf-1Z3" firstAttribute="centerX" secondItem="zcT-eC-Vs8" secondAttribute="centerX" id="fix-oP-j3p"/>
+                            <constraint firstItem="fV8-Yf-1Z3" firstAttribute="centerX" secondItem="FZ5-GO-hOb" secondAttribute="centerX" id="jKe-XC-b2M"/>
+                            <constraint firstItem="sbS-Ks-jXq" firstAttribute="top" secondItem="GGN-uE-RMO" secondAttribute="bottom" constant="461" id="jV9-oS-F6R"/>
+                            <constraint firstItem="fHr-Fs-cif" firstAttribute="top" secondItem="fV8-Yf-1Z3" secondAttribute="bottom" constant="101" id="lgZ-op-xuf"/>
+                        </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JOz-zg-Yq9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
