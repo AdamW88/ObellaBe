@@ -11,22 +11,23 @@
 		E752BCF31B656F8A00FD2126 /* Blood Pressure Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF11B656F8A00FD2126 /* Blood Pressure Button.png */; };
 		E752BCF41B656F8A00FD2126 /* Heart Rate Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF21B656F8A00FD2126 /* Heart Rate Button.png */; };
 		E752BCF61B65711300FD2126 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF51B65711300FD2126 /* Button.png */; };
-		E752BD011B65D83500FD2126 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF71B65D83500FD2126 /* Icon-40.png */; };
-		E752BD021B65D83500FD2126 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF81B65D83500FD2126 /* Icon-40@2x.png */; };
-		E752BD031B65D83500FD2126 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCF91B65D83500FD2126 /* Icon-40@3x.png */; };
-		E752BD041B65D83500FD2126 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFA1B65D83500FD2126 /* Icon-60@2x.png */; };
-		E752BD051B65D83500FD2126 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFB1B65D83500FD2126 /* Icon-60@3x.png */; };
-		E752BD061B65D83500FD2126 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFC1B65D83500FD2126 /* Icon-76.png */; };
-		E752BD071B65D83500FD2126 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFD1B65D83500FD2126 /* Icon-76@2x.png */; };
-		E752BD081B65D83500FD2126 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFE1B65D83500FD2126 /* Icon-Small.png */; };
-		E752BD091B65D83500FD2126 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BCFF1B65D83500FD2126 /* Icon-Small@2x.png */; };
-		E752BD0A1B65D83500FD2126 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD001B65D83500FD2126 /* Icon-Small@3x.png */; };
+		E752BD151B66E52700FD2126 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD0B1B66E52700FD2126 /* Icon-40.png */; };
+		E752BD161B66E52700FD2126 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD0C1B66E52700FD2126 /* Icon-40@2x.png */; };
+		E752BD171B66E52700FD2126 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD0D1B66E52700FD2126 /* Icon-40@3x.png */; };
+		E752BD181B66E52700FD2126 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD0E1B66E52700FD2126 /* Icon-60@2x.png */; };
+		E752BD191B66E52700FD2126 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD0F1B66E52700FD2126 /* Icon-60@3x.png */; };
+		E752BD1A1B66E52700FD2126 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD101B66E52700FD2126 /* Icon-76.png */; };
+		E752BD1B1B66E52700FD2126 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD111B66E52700FD2126 /* Icon-76@2x.png */; };
+		E752BD1C1B66E52700FD2126 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD121B66E52700FD2126 /* Icon-Small.png */; };
+		E752BD1D1B66E52700FD2126 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD131B66E52700FD2126 /* Icon-Small@2x.png */; };
+		E752BD1E1B66E52700FD2126 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E752BD141B66E52700FD2126 /* Icon-Small@3x.png */; };
+		E752BD201B66E69200FD2126 /* StartUpScreen-640@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E752BD1F1B66E69200FD2126 /* StartUpScreen-640@2x.jpg */; };
+		E752BD231B66E6F000FD2126 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E752BD211B66E6F000FD2126 /* LaunchScreen.xib */; };
 		E7ADB9E31B3A30F300F26C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB9E21B3A30F300F26C54 /* AppDelegate.swift */; };
 		E7ADB9E61B3A30F300F26C54 /* Bluetooth_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB9E41B3A30F300F26C54 /* Bluetooth_Test.xcdatamodeld */; };
 		E7ADB9E81B3A30F300F26C54 /* HRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB9E71B3A30F300F26C54 /* HRViewController.swift */; };
 		E7ADB9EB1B3A30F300F26C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7ADB9E91B3A30F300F26C54 /* Main.storyboard */; };
 		E7ADB9ED1B3A30F300F26C54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ADB9EC1B3A30F300F26C54 /* Images.xcassets */; };
-		E7ADB9F01B3A30F300F26C54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7ADB9EE1B3A30F300F26C54 /* LaunchScreen.xib */; };
 		E7ADBA061B3A31DA00F26C54 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7ADBA051B3A31DA00F26C54 /* CoreBluetooth.framework */; };
 		E7ADBA081B3A3C1600F26C54 /* ObellaDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ADBA071B3A3C1600F26C54 /* ObellaDevice.swift */; };
 		E7B8984C1B6329CE00232D8C /* ObellaPrego2.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B8984B1B6329CE00232D8C /* ObellaPrego2.png */; };
@@ -52,16 +53,18 @@
 		E752BCF11B656F8A00FD2126 /* Blood Pressure Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood Pressure Button.png"; sourceTree = "<group>"; };
 		E752BCF21B656F8A00FD2126 /* Heart Rate Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heart Rate Button.png"; sourceTree = "<group>"; };
 		E752BCF51B65711300FD2126 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
-		E752BCF71B65D83500FD2126 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
-		E752BCF81B65D83500FD2126 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
-		E752BCF91B65D83500FD2126 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
-		E752BCFA1B65D83500FD2126 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
-		E752BCFB1B65D83500FD2126 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
-		E752BCFC1B65D83500FD2126 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
-		E752BCFD1B65D83500FD2126 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
-		E752BCFE1B65D83500FD2126 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		E752BCFF1B65D83500FD2126 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		E752BD001B65D83500FD2126 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		E752BD0B1B66E52700FD2126 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		E752BD0C1B66E52700FD2126 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		E752BD0D1B66E52700FD2126 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		E752BD0E1B66E52700FD2126 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		E752BD0F1B66E52700FD2126 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		E752BD101B66E52700FD2126 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		E752BD111B66E52700FD2126 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		E752BD121B66E52700FD2126 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		E752BD131B66E52700FD2126 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		E752BD141B66E52700FD2126 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		E752BD1F1B66E69200FD2126 /* StartUpScreen-640@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "StartUpScreen-640@2x.jpg"; sourceTree = "<group>"; };
+		E752BD221B66E6F000FD2126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E7ADB9DD1B3A30F300F26C54 /* ObellaBe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObellaBe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ADB9E11B3A30F300F26C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7ADB9E21B3A30F300F26C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +72,6 @@
 		E7ADB9E71B3A30F300F26C54 /* HRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRViewController.swift; sourceTree = "<group>"; };
 		E7ADB9EA1B3A30F300F26C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7ADB9EC1B3A30F300F26C54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E7ADB9EF1B3A30F300F26C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E7ADB9F51B3A30F300F26C54 /* ObellaBe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObellaBe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ADB9FA1B3A30F300F26C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7ADBA051B3A31DA00F26C54 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,7 @@
 		E7ADB9DF1B3A30F300F26C54 /* ObellaBe */ = {
 			isa = PBXGroup;
 			children = (
+				E752BD211B66E6F000FD2126 /* LaunchScreen.xib */,
 				E7ADB9E21B3A30F300F26C54 /* AppDelegate.swift */,
 				E74A1EF51B5884BD007B8D01 /* MainScreenViewController.swift */,
 				E7ADB9E71B3A30F300F26C54 /* HRViewController.swift */,
@@ -132,7 +135,6 @@
 				E7ADB9E91B3A30F300F26C54 /* Main.storyboard */,
 				E7E92A041B6346130075B85B /* InfoViewController.swift */,
 				E7ADB9EC1B3A30F300F26C54 /* Images.xcassets */,
-				E7ADB9EE1B3A30F300F26C54 /* LaunchScreen.xib */,
 				E7ADB9E41B3A30F300F26C54 /* Bluetooth_Test.xcdatamodeld */,
 				E7ADB9E01B3A30F300F26C54 /* Supporting Files */,
 			);
@@ -143,16 +145,17 @@
 		E7ADB9E01B3A30F300F26C54 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E752BCF71B65D83500FD2126 /* Icon-40.png */,
-				E752BCF81B65D83500FD2126 /* Icon-40@2x.png */,
-				E752BCF91B65D83500FD2126 /* Icon-40@3x.png */,
-				E752BCFA1B65D83500FD2126 /* Icon-60@2x.png */,
-				E752BCFB1B65D83500FD2126 /* Icon-60@3x.png */,
-				E752BCFC1B65D83500FD2126 /* Icon-76.png */,
-				E752BCFD1B65D83500FD2126 /* Icon-76@2x.png */,
-				E752BCFE1B65D83500FD2126 /* Icon-Small.png */,
-				E752BCFF1B65D83500FD2126 /* Icon-Small@2x.png */,
-				E752BD001B65D83500FD2126 /* Icon-Small@3x.png */,
+				E752BD1F1B66E69200FD2126 /* StartUpScreen-640@2x.jpg */,
+				E752BD0B1B66E52700FD2126 /* Icon-40.png */,
+				E752BD0C1B66E52700FD2126 /* Icon-40@2x.png */,
+				E752BD0D1B66E52700FD2126 /* Icon-40@3x.png */,
+				E752BD0E1B66E52700FD2126 /* Icon-60@2x.png */,
+				E752BD0F1B66E52700FD2126 /* Icon-60@3x.png */,
+				E752BD101B66E52700FD2126 /* Icon-76.png */,
+				E752BD111B66E52700FD2126 /* Icon-76@2x.png */,
+				E752BD121B66E52700FD2126 /* Icon-Small.png */,
+				E752BD131B66E52700FD2126 /* Icon-Small@2x.png */,
+				E752BD141B66E52700FD2126 /* Icon-Small@3x.png */,
 				E752BCF51B65711300FD2126 /* Button.png */,
 				E752BCF11B656F8A00FD2126 /* Blood Pressure Button.png */,
 				E752BCF21B656F8A00FD2126 /* Heart Rate Button.png */,
@@ -232,6 +235,7 @@
 				TargetAttributes = {
 					E7ADB9DC1B3A30F300F26C54 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = HY44789CE3;
 					};
 					E7ADB9F41B3A30F300F26C54 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -263,24 +267,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E752BD231B66E6F000FD2126 /* LaunchScreen.xib in Resources */,
 				E7ADB9EB1B3A30F300F26C54 /* Main.storyboard in Resources */,
-				E7ADB9F01B3A30F300F26C54 /* LaunchScreen.xib in Resources */,
-				E752BD0A1B65D83500FD2126 /* Icon-Small@3x.png in Resources */,
-				E752BD061B65D83500FD2126 /* Icon-76.png in Resources */,
-				E752BD091B65D83500FD2126 /* Icon-Small@2x.png in Resources */,
-				E752BD041B65D83500FD2126 /* Icon-60@2x.png in Resources */,
+				E752BD1E1B66E52700FD2126 /* Icon-Small@3x.png in Resources */,
+				E752BD1A1B66E52700FD2126 /* Icon-76.png in Resources */,
+				E752BD1D1B66E52700FD2126 /* Icon-Small@2x.png in Resources */,
+				E752BD181B66E52700FD2126 /* Icon-60@2x.png in Resources */,
 				E7BE49061B61BA3D0019C0F4 /* Opificio.ttf in Resources */,
-				E752BD051B65D83500FD2126 /* Icon-60@3x.png in Resources */,
+				E752BD191B66E52700FD2126 /* Icon-60@3x.png in Resources */,
 				E7B8984C1B6329CE00232D8C /* ObellaPrego2.png in Resources */,
-				E752BD021B65D83500FD2126 /* Icon-40@2x.png in Resources */,
-				E752BD011B65D83500FD2126 /* Icon-40.png in Resources */,
+				E752BD161B66E52700FD2126 /* Icon-40@2x.png in Resources */,
+				E752BD151B66E52700FD2126 /* Icon-40.png in Resources */,
 				E7ADB9ED1B3A30F300F26C54 /* Images.xcassets in Resources */,
-				E752BD081B65D83500FD2126 /* Icon-Small.png in Resources */,
+				E752BD1C1B66E52700FD2126 /* Icon-Small.png in Resources */,
 				E752BCF41B656F8A00FD2126 /* Heart Rate Button.png in Resources */,
 				E752BCF31B656F8A00FD2126 /* Blood Pressure Button.png in Resources */,
 				E7E92A071B63C2AD0075B85B /* Opificio_Bold.ttf in Resources */,
-				E752BD031B65D83500FD2126 /* Icon-40@3x.png in Resources */,
-				E752BD071B65D83500FD2126 /* Icon-76@2x.png in Resources */,
+				E752BD171B66E52700FD2126 /* Icon-40@3x.png in Resources */,
+				E752BD1B1B66E52700FD2126 /* Icon-76@2x.png in Resources */,
+				E752BD201B66E69200FD2126 /* StartUpScreen-640@2x.jpg in Resources */,
 				E752BCF61B65711300FD2126 /* Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,20 +333,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E752BD211B66E6F000FD2126 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E752BD221B66E6F000FD2126 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		E7ADB9E91B3A30F300F26C54 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E7ADB9EA1B3A30F300F26C54 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E7ADB9EE1B3A30F300F26C54 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7ADB9EF1B3A30F300F26C54 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,10 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Bluetooth Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AdamWheeler.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ObellaBe;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -444,10 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Bluetooth Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AdamWheeler.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ObellaBe;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
